@@ -1,4 +1,4 @@
-# **CODECADEMY EXERCISE**
+# **CODECADEMY CHALLENGE**
 
 
 This is just an challenge exercise from [codecademy](https://codecademy.com) full-stack course **"IMPROVED STYLING WITH CSS"** module.
