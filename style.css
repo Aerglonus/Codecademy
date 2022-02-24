@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+body {
+    height: 100%;
+    background: hsla(272, 76%, 53%, 1);
+
+    background: linear-gradient(45deg, hsla(272, 76%, 53%, 1) 0%, hsla(260, 100%, 44%, 1) 100%);
+
+    background: -moz-linear-gradient(45deg, hsla(272, 76%, 53%, 1) 0%, hsla(260, 100%, 44%, 1) 100%);
+
+    background: -webkit-linear-gradient(45deg, hsla(272, 76%, 53%, 1) 0%, hsla(260, 100%, 44%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#8E2DE2", endColorstr="#4A00E0", GradientType=1);
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+table {
+
+    width: auto;
+    margin: 0 auto;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.548);
+    border-radius: 10px;
+}
+
+thead {
+    background-color: rgb(185, 183, 185);
+    border-radius: 10px;
+}
+
+td {
+    background-color: rgb(255, 255, 255);
+    /* text-align: justify; */
+    color: rgb(59, 59, 59);
+    padding: 0 20px;
+    margin: 0 100px;
+    text-align: center;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 10px;
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+th {
+
+    background-color: #131213;
+    color: white;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+#descrip {
+    width: 1000px;
+    padding: 20px 20px;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.code {
+    font-family: Consolas, "courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+}
+
+.desc-bg {
+    background-color: #f1f1f1;
+}
+
+#selector {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sec-2 {
+    margin-bottom: 50px;
+}
+
+#table-title-2 {
+    margin: 50px 0;
+}
