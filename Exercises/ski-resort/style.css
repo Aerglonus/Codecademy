@@ -1,0 +1,80 @@
+a {
+    color: #736B92;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #2176FF;
+    text-decoration: underline !important;
+}
+
+a.logo:hover {
+    color: #ca6410 !important;
+}
+
+a.nav-link {
+    text-decoration: underline;
+}
+
+a.nav-link:hover {
+    text-decoration: none;
+}
+
+.btn {
+    font-family: 'Raleway', sans-serif;
+    background-color: #2176FF;
+    width: 200px;
+    height: 50px;
+    padding: 0 10px;
+    display: inline-flex;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: width 1s, height 1s;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn:hover {
+    background-color: #131213;
+    color: white;
+    width: 260px;
+    height: 60px;
+    padding: 0 5px;
+    cursor: pointer;
+    border: 2px solid #2176FF;
+}
+
+
+.btn:active {
+    background-color: white;
+}
+
+#content {
+    flex: 0 0 200px;
+}
+
+
+
+.activity:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #131213;
+    color: white;
+
+}
+
+.activities-panel a {
+    text-decoration: none;
+}
+
+.activity:active {
+    background-color: white;
+}

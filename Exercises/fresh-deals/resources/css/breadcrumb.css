@@ -1,0 +1,33 @@
+.breadcrumb li.location+li.location::before {
+    padding: 10px;
+    content: "»";
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li.attribute a {
+    color: black;
+}
+
+.breadcrumb li.attribute::after {
+    content: "";
+    color: green;
+    font-size: 10px;
+    vertical-align: super;
+}
+
+.breadcrumb li.attribute::before {
+    content: "»";
+    padding: 10px;
+}
+
+#crumbs a {
+    color: green;
+}
+
+#crumbs a:hover {
+    color: black;
+    text-decoration: underline;
+}
