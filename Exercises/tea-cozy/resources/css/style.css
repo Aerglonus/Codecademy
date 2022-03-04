@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.logo {
+  display: inline-flex;
+  place-content: center;
+  margin: 0 10px;
+}
+#logo-nav {
+  height: 50px;
+}
+#navbar {
+  border-bottom: 1px solid white;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  min-height: 69px;
+  background-color: black;
+  justify-content: space-between;
+  display: flex;
+  place-items: center;
+  flex-direction: row;
+}
+
+.menu {
+  margin: 0 10px;
+  color: white;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+}
+li {
+  text-decoration: underline;
+  display: inline-flex;
+  float: left;
+}
+.hero {
+  background-color: antiquewhite;
+}
+
+#item {
+  margin: 5px;
+  min-width: 100px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mission {
+  display: flex;
+  place-content: center;
+}
+.mission-container {
+  display: flex;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.mission-text {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+.mission-text div {
+  padding: 10px;
+}
+#tea-container {
+  height: 200px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+
+.tea-text {
+  line-height: 2;
+  color: white;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+}
+.items-container {
+  display: flex;
+  place-content: center;
+  width: 100%;
+  align-items: center;
+}
+#tea-items {
+  max-width: 1000px;
+  height: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  place-content: center;
+  display: flex;
+}
+
+#tea-items img {
+  margin: 10px;
+  height: 200px;
+  width: 300px;
+}
+section {
+  margin-top: 69px;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 500px;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/Exercises/tea-cozy/resources/imgs/locations-background.webp");
+  overflow-y: scroll;
+}
+
+.location h2 {
+  flex: 1 1 100%;
+  align-self: flex-end;
+  margin-bottom: 5px;
+}
+
+.fall {
+  margin: 10px 40px;
+  width: 300px;
+  line-height: 300%;
+  height: 300px;
+  background-color: black;
+}
+.location h3 {
+  opacity: 1;
+}
+.rum {
+  margin: 10px 40px;
+  width: 300px;
+  height: 300px;
+  line-height: 300%;
+  background-color: black;
+}
+
+.donut {
+  margin: 10px 40px;
+  line-height: 300%;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+}
+
+.contact {
+  margin: 10px 40px;
+  margin-top: 0px;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  line-height: 300%;
+  height: 200px;
+}
+
+.copyright {
+  margin: 20px 20px;
+  text-align: left;
+}

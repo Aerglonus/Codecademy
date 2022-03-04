@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@300;400;500;700&family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@300;400;500;700&family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,700&display=swap");
 
 ::-webkit-scrollbar {
     display: none;
@@ -7,20 +7,19 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     /* outline: 1px solid #f00 !important; */
     scrollbar-width: none;
 }
 
 body {
     background-color: #fff;
-
 }
 
 header {
     background-color: #fff;
     box-shadow: 0 0 12px 4px #e5e9f1;
-    color: #1E2019;
+    color: #1e2019;
     display: flex;
     flex-direction: row;
     width: calc(100% - 60px);
@@ -32,7 +31,6 @@ header {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     z-index: 999;
-
 }
 
 h1,
@@ -42,39 +40,35 @@ p {
     cursor: default;
 }
 
-
-
 h1 {
     font-size: 30px;
     letter-spacing: 5px;
 }
 
-
-
 .logo h3 {
-    font-family: 'Roboto Mono', monospace;
-    letter-spacing: .2em;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
     cursor: pointer;
 }
 
 .logo a {
-    color: #1E2019;
+    color: #1e2019;
     text-decoration: none;
 }
 
 .logo a:active {
-    color: #1E2019;
+    color: #1e2019;
     text-decoration: none;
 }
 
 .logo a:visited {
-    color: #1E2019;
+    color: #1e2019;
     text-decoration: none;
 }
 
 .logo a:hover {
-    color: #8669FA;
+    color: #8669fa;
 }
 
 .menu {
@@ -100,18 +94,16 @@ h1 {
 }
 
 .menu a {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-size: 13px;
     text-decoration: none;
-    color: #1E2019;
+    color: #1e2019;
     padding: 12px;
     text-transform: uppercase;
     background-color: white;
     transition: all 0.4s ease;
     border-radius: 10px;
 }
-
-
 
 .logo {
     display: flex;
@@ -121,11 +113,10 @@ h1 {
     align-items: center;
 }
 
-
 .menu a:hover {
     box-shadow: 0 0 12px 4px #e5e9f1;
     /* background-color: #1E2019; */
-    color: #8669FA;
+    color: #8669fa;
     border-radius: 10px;
 }
 
@@ -143,7 +134,6 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-
 
 .box {
     height: 200px;
@@ -163,12 +153,12 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #8669FA;
+    background-color: #8669fa;
     cursor: pointer;
 }
 
 .box-2 {
-    background-color: #FDDD8C;
+    background-color: #fddd8c;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -178,7 +168,7 @@ h1 {
 }
 
 .box-3 {
-    background-color: #D2D6EF;
+    background-color: #d2d6ef;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -188,7 +178,7 @@ h1 {
 }
 
 .box-4 {
-    background-color: #1E2019;
+    background-color: #1e2019;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -198,7 +188,7 @@ h1 {
 }
 
 .box-5 {
-    background-color: #393E41;
+    background-color: #393e41;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -207,13 +197,11 @@ h1 {
     cursor: pointer;
 }
 
-
 .fonts-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 0rem 1rem 3rem 1rem;
-
 }
 
 .button-container {
@@ -261,7 +249,6 @@ h1 {
     border-radius: 20px;
     flex-direction: column;
     text-align: center;
-
 }
 
 .title-2 {
@@ -292,15 +279,14 @@ h1 {
 }
 
 .font-box h1 {
-    color: #393E41;
+    color: #393e41;
     font-size: 50px;
     text-decoration-line: underline;
     text-underline-offset: 10px;
-
 }
 
 .font-box-2 h1 {
-    color: #393E41;
+    color: #393e41;
     font-size: 50px;
     text-decoration-line: underline;
     text-underline-offset: 10px;
@@ -337,21 +323,20 @@ h1 {
 
 #logo-style {
     font-size: 20px;
-    font-family: 'Roboto Mono', monospace,
-        monospace;
-    letter-spacing: .2em;
+    font-family: "Roboto Mono", monospace, monospace;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
 }
 
 #txt-style-1 h1 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 5px;
 }
 
 #txt-style-1 h3 {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 5px;
@@ -361,7 +346,7 @@ p {
     line-height: 1.4;
     text-transform: capitalize;
     margin: 20px 0;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     letter-spacing: 0.4em;
     text-align: left;
@@ -390,100 +375,88 @@ p {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
 
 #light {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     font-weight: 300;
 }
 
 #regular {
-    font-family: 'Roboto Mono',
-        monospace;
+    font-family: "Roboto Mono", monospace;
     font-weight: 400;
 }
 
 #bold {
-    font-family: 'Roboto Mono',
-        monospace;
+    font-family: "Roboto Mono", monospace;
     font-weight: 700;
 }
 
 #bold-ita {
     font-style: italic;
-    font-family: 'Roboto Mono',
-        monospace;
+    font-family: "Roboto Mono", monospace;
     font-weight: 700;
 }
 
 #ibm-light {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-weight: 300;
 }
 
 #ibm-regular {
-    font-family: 'IBM Plex Mono',
-        monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
 }
 
 #ibm-med {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-weight: 500;
 }
 
 #ibm-bold {
-    font-family: 'IBM Plex Mono',
-        monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-weight: 700;
 }
 
 h1:hover {
-    color: #8669FA;
+    color: #8669fa;
 }
 
 h3:hover {
-    color: #8669FA;
+    color: #8669fa;
 }
 
-
 #font-sample h3 {
-    color: #393E41;
+    color: #393e41;
 }
 
 #color-hex {
-    color: #FDDD8C;
-    font-family: 'Roboto Mono', monospace;
+    color: #fddd8c;
+    font-family: "Roboto Mono", monospace;
     font-weight: 700;
 }
 
-
 #color-hex-2 {
-    color: #1E2019;
-    font-family: 'Roboto Mono',
-        monospace;
+    color: #1e2019;
+    font-family: "Roboto Mono", monospace;
     font-weight: 700;
 }
 
 #color-hex-3 {
-    color: #393E41;
-    font-family: 'Roboto Mono',
-        monospace;
+    color: #393e41;
+    font-family: "Roboto Mono", monospace;
     font-weight: 700;
 }
 
 #color-hex-4 {
-    color: #8669FA;
-    font-family: 'Roboto Mono',
-        monospace;
+    color: #8669fa;
+    font-family: "Roboto Mono", monospace;
     font-weight: 700;
 }
 
 #color-hex-5 {
-    color: #D2D6EF;
-    font-family: 'Roboto Mono',
-        monospace;
+    color: #d2d6ef;
+    font-family: "Roboto Mono", monospace;
     font-weight: 700;
 }
 
@@ -496,57 +469,56 @@ h3:hover {
 }
 
 .btn-style-1:hover {
-
-    color: #8669FA;
+    color: #8669fa;
     background-color: #fff;
     box-shadow: 0 0 12px 4px #e5e9f1;
 }
 
 .btn-style-2 {
-    color: #8669FA;
-    background-color: #1E2019;
+    color: #8669fa;
+    background-color: #1e2019;
     transition: all 0.4s ease;
 }
 
 .btn-style-2:hover {
-    color: #FDDD8C;
-    background-color: #1E2019;
-    box-shadow: 0 0 12px 4px #D2D6EF;
+    color: #fddd8c;
+    background-color: #1e2019;
+    box-shadow: 0 0 12px 4px #d2d6ef;
 }
 
 .btn-style-3 {
-    color: #FDDD8C;
+    color: #fddd8c;
     transition: all 0.4s ease;
     background-color: #fff;
 }
 
 .btn-style-3:hover {
     color: #fff;
-    background-color: #8669FA;
+    background-color: #8669fa;
     box-shadow: 0 0 12px 4px #e5e9f1;
 }
 
 .btn-style-4 {
-    color: #FDDD8C;
+    color: #fddd8c;
     transition: all 0.4s ease;
-    background-color: #1E2019;
+    background-color: #1e2019;
 }
 
 .btn-style-4:hover {
-    color: #D2D6EF;
-    background-color: #8669FA;
+    color: #d2d6ef;
+    background-color: #8669fa;
     box-shadow: 0 0 12px 4px #e5e9f1;
 }
 
 .btn-style-5 {
-    color: #1E2019;
+    color: #1e2019;
     transition: all 0.4s ease;
-    background-color: #FDDD8C;
+    background-color: #fddd8c;
 }
 
 .btn-style-5:hover {
-    color: #D2D6EF;
-    background-color: #1E2019;
+    color: #d2d6ef;
+    background-color: #1e2019;
     box-shadow: 0 0 12px 4px #e5e9f1;
 }
 
@@ -554,7 +526,6 @@ h3:hover {
 /**=============================**/
 /**JUST A FOOTER THING**/
 footer {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -569,9 +540,7 @@ footer p {
 
 /**ENDS FOOTER THING**/
 
-
 /** HERE GOES THE SCREEN RESIZE **/
-
 
 @media (max-width: 480px) {
     .box {
@@ -604,7 +573,6 @@ footer p {
 
     .text-styles-box {
         flex-direction: column;
-
     }
 
     .menu {
@@ -652,9 +620,6 @@ footer p {
         flex-direction: column;
         justify-content: center;
     }
-
-
-
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -691,17 +656,13 @@ footer p {
     }
 
     header {
-
         flex-direction: row;
-
     }
 
     .menu {
         display: flex;
     }
 }
-
-
 
 @media (min-width: 1025px) and (max-width: 1280px) {
     .box {
@@ -732,10 +693,7 @@ footer p {
         flex-direction: row;
         height: 760px;
     }
-
-
 }
-
 
 @media (min-width: 1280px) {
     .box {
@@ -753,20 +711,18 @@ footer p {
 
     .font-box {
         margin-right: 10px;
-
     }
 
     .text-styles-box {
         height: 610px;
     }
 
-
     .menu {
         display: flex;
     }
 }
 
-@media (max-width: 1553px) and (min-width:1200px) {
+@media (max-width: 1553px) and (min-width: 1200px) {
     .font-box {
         margin-right: 10px;
         width: 650px;
@@ -778,11 +734,10 @@ footer p {
 
     .text-styles-box {
         flex-direction: row;
-
     }
 }
 
-@media (min-width: 2392.260px) {
+@media (min-width: 2392.26px) {
     .font-box {
         margin-right: 10px;
         width: 800px;
@@ -791,5 +746,4 @@ footer p {
     .font-box-2 {
         width: 800px;
     }
-
 }
